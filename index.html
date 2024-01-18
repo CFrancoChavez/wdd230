@@ -6,22 +6,29 @@
     <title>Cesar Franco Chavez - WDD230 - Web Frontend Development</title>
     <meta name="description" content="WDD230 - Web Frontend Development - Cesar Franco Chavez - course assignment portal"> 
     <meta name="author" content="Cesar Franco Chavez">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/profile-picture.jpg" alt="Profile-picture">
-        <span>Cesar Franco Chavez</span>
+        <img class="profile" src="images/profile-picture.jpg" alt="Profile-picture">
+        <span class="name">Cesar Franco Chavez</span>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href=""></a>Chamber</li>
-            <li><a href=""></a>Site PLan</li>
-            <li><a href=""></a>Form</li>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="chamber.html"></a>Chamber</li>
+            <li class="nav"><a href="site-plan.html"></a>Site Plan</li>
+            <li class="nav"><a href="form.html"></a>Form</li>
         </ul>
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
+        <div id="card-container">
         <section class="card">
             <h2>Learning Activities</h2>
             <ul>
@@ -40,6 +47,7 @@
             <input type="text" placeholder="Visits">
 
         </section>
+    </div>
     </main>
     <footer>  
         <p id="year-placeholder">© year  Cesar Franco Chavez - Argentina</p>

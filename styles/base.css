@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+    header {
+      grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+      text-align: center;
+    }
+  
+    header .profile,
+    header .name {
+      margin: 0; /* Elimina los márgenes izquierdos en pantallas pequeñas */
+      padding: 10px; /* Ajusta el espaciado en pantallas pequeñas */
+    }
+  
+    header .profile {
+        order: 1;
+        margin: auto;
+    }
+
+    header .name {
+        order: 2;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+    nav ul {
+      flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+      align-items: center; /* Centra los elementos */
+    }
+  
+    li.nav {
+      padding: 20px; /* Ajusta el espaciado de los elementos de navegación */
+      font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+    }
+  
+    main {
+      padding: 10px; /* Ajusta el espaciado en pantallas pequeñas */
+    }
+  
+    #card-container {
+      flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+    }
+  
+    .card {
+      width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+  
+    .card h2 {
+      font-size: 1.8em; /* Ajusta el tamaño de la fuente */
+    }
+  
+    .card ul {
+      text-align: left; /* Alinea la lista a la izquierda en pantallas pequeñas */
+    }
+  
+    footer p {
+      font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+    }
+  }
+  
