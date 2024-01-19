@@ -23,37 +23,37 @@
         font-size: 2rem;
     }
     nav ul {
-      flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
-      align-items: center; /* Centra los elementos */
+      flex-direction: column; 
+      align-items: center; 
     }
   
     li.nav {
-      padding: 20px; /* Ajusta el espaciado de los elementos de navegación */
-      font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+      padding: 20px; 
+      font-size: 1.5em; 
     }
   
     main {
-      padding: 10px; /* Ajusta el espaciado en pantallas pequeñas */
+      padding: 10px; 
     }
   
     #card-container {
-      flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+      flex-direction: column; 
     }
   
     .card {
-      width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+      width: 100%; 
     }
   
     .card h2 {
-      font-size: 1.8em; /* Ajusta el tamaño de la fuente */
+      font-size: 1.8em; 
     }
   
     .card ul {
-      text-align: left; /* Alinea la lista a la izquierda en pantallas pequeñas */
+      text-align: left; 
     }
   
     footer p {
-      font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+      font-size: 1.5rem; 
     }
   }
   

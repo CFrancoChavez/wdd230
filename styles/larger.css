@@ -63,8 +63,8 @@ body {
 
   #card-container {
     display: flex;
-    justify-content: space-around; /* Distribuye las tarjetas horizontalmente */
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en pantallas pequeñas */
+    justify-content: space-around; 
+    flex-wrap: wrap; 
   }
   
   .card {
